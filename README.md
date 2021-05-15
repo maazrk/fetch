@@ -18,7 +18,9 @@ beautifulsoup4==4.9.3 # for scraping the data
 # Project structure
 
 fetch.py - It is the entry point of the program
-util.scraping_utils.py - Contains all the functions related to web scraping, making network calls i.e. extracting info from webpage, compressing the scraped data, etc
+
+util.scraping_utils.py - Contains all the functions related to web scraping, making network calls i.e. extracting info from webpage, compressing the scraped data, etc.
+
 util.helpers.py - Contains some helper functions for outputting the data and for validation
 
 # Usage
