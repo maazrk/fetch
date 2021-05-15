@@ -12,7 +12,9 @@ Run the following command:
 
 
 tqdm==4.60.0 # for progressbar
+
 requests==2.25.1 # for making http requests
+
 beautifulsoup4==4.9.3 # for scraping the data
 
 # Project structure
@@ -24,7 +26,7 @@ util.scraping_utils.py - Contains all the functions related to web scraping, mak
 util.helpers.py - Contains some helper functions for outputting the data and for validation
 
 # Usage
-usage: python3 fetch.py [options] urls
+usage: `python3 fetch.py [options] urls`
 
 Fetch specified webpages
 
@@ -36,5 +38,5 @@ optional arguments:
   -m, --meta    Displays metadata while fetching.
   -c, --clone  Extracts all assets from the page and saves it as a zip file
 
-Eg: python3 fetch.py -m -c https://google.com https://netflix.com
+Eg: `python3 fetch.py -m -c https://google.com https://netflix.com`
 
