@@ -1,7 +1,7 @@
 # fetch
 A command line program that can fetch web pages and saves them to disk for later retrieval and browsing.
 
-It also supports downloading related assets of the webpage specified
+It also supports downloading associated assets of the webpage specified.
 
 # Installation
 This is a python script, and requires python3 interpreter to be installed and some packages.
